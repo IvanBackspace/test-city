@@ -46,7 +46,9 @@ body  {
 
 .header{
     padding: 12px ;
-    background-color: #333;
+    background-color: #f5f5f5;
+    border-bottom: solid 1px rgb(159, 159, 159);
+    
 }
 .contanier{
     display: flex;
@@ -69,7 +71,7 @@ body  {
 }
 .popup_button{
     font-size: 20px;
-    color: #9d9d9d;
+    color: #767676;
     margin-left: 20px;
   
 }
@@ -114,12 +116,6 @@ body  {
     padding: 30px 10px;
 }
 
-@media(max-width: 600px) {
-   .popup_body{
-       align-items: flex-start;
-    }
-}
-
 .popup_content{
     background-color: white;
     color: black;
@@ -150,7 +146,6 @@ body  {
     margin: 0px 0px 1em 0px;
 }
 
-
 .list {
 
     max-width:  500px;
@@ -172,6 +167,9 @@ body  {
     }
     .main_text{
         font-size: 18px;
+    }
+     .popup_body{
+       align-items: flex-start;
     }
 }
 
