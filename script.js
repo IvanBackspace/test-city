@@ -43,15 +43,9 @@ elem.onclick = function() {
 
 elem.onclick();
 
+// вывод название города на страницу
 function reply_click(clicked_id) {
     var idCity = clicked_id;
     let textLink = document.getElementById(idCity).innerText;
     document.getElementById('text').innerHTML="Ваш регион: "+textLink;
 }
-
-
-
-
-
-
-
