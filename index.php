@@ -20,7 +20,7 @@
                     <a id="elem" class="popup_button" href="#popup">Выбор города</a>
                 </div> 
                 <div>
-                    <a class="popup_button" href="#popup">GitHub</a>
+                    <a class="popup_button" href="https://github.com/IvanBackspace/test-city">GitHub</a>
                 </div> 
             </div>   
         </header>
